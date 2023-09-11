@@ -45,7 +45,7 @@ class App extends Component {
                     <SearchBox searchChange={this.onSearchChange} robots={this.state.robots}/>
                     <br/> <br/>
                     <Scroll>
-                        <CardList robots={this.state.robotsF} inputValue={this.state.inputValue}/>
+                        <CardList robots={this.state.robotsF} inputValue={this.state.inputValue} />   
                     </Scroll>    
                 </div>
             );
